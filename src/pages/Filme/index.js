@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate	 } from 'react-router-dom';
 import './filme-info.css';
 import api from '../../services/api';
-import { renderIntoDocument } from 'react-dom/test-utils';
 
 function Filme(){
     const { id } = useParams();
